@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+html * {
+    margin: 0;
+    padding: 0;
+}
+
+/*Configurações do header do site */
+#cabecalho {
+    height: 7vh;
+    background-color: #e9d203;
+    text-align: center;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+a:active {
+    text-decoration: none;
+}
+
+#site-nome {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color:black;
+}
+
+#cabecalho img {
+    height: 4.3rem;
+    margin-left: 1px;
+}
+
+/* Configurações do conteúdo principal da página */
+#conteudo {
+    padding: 10vh;
+    height: 650px;
+    background-color: #262626;
+    padding-bottom: 100px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+#titulo {
+    font-size: 2.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3.75rem;
+}
+
+#titulo:hover {
+    color: #e9d203;
+}
+
+#subtitulo {
+    font-size: 1.75rem;
+    text-align: left;
+    margin-bottom: -3.8rem;
+}
+
+#paragrafos {
+    font-size: 1em;
+    margin: 0px;
+    margin-bottom: 2.3rem;
+}
+
+#paragrafos p, #lista ol li {
+    line-height: 1.4rem;
+}
+
+#div-lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#div-lista div img {
+    height: 20.5em;
+    margin-right: 3.75rem;
+}
+
+/* Configurações do rodapé do site */
+#rodape {
+    height: 15vh;
+    background-color: #e9d203;
+    text-align: right;
+    padding: 30px;
+}
+
+#rodape div {
+    display: inline-flex;
+}
+
+#rodape-icones img {
+    height: 40px;
+    margin-right: 7px;
+    cursor: pointer;
+}
