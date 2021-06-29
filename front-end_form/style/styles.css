@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* NÃO ALTERAR ESSAS PROPRIEDADES DO BODY */
+body {
+    /* Altura em 100% do tamanho da janela */
+    height: 100vh;
+    /* Habilita o posicionamento Flexbox */
+    /* Transforma todos em filhos em flex itens */
+    display: flex;
+    /* Alinha os elementos na horizontal */
+    justify-content: center;
+    /* Alinha os elementos na vertical */
+    align-items: center;
+
+    background-color: #8a05be;
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    padding: 90px;
+    border: rgba(12, 166, 228, 0.404) 3px dashed;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3%;
+
+    
+    text-align: center;
+}
+
+form img {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.labels {
+    color: rgb(116, 113, 113);
+    margin-right: 3px;
+}
+
+#email, #password {
+    background: #fff;
+    color: #525865;
+    border-radius: 4px;
+    border: 1px solid #d1d1d1;
+    box-shadow: inset 0px 1px 8px rgba(107, 106, 106, 0.116);
+    font-size: 1em;
+    line-height: 1.45;
+    outline: none;
+    padding: 0.6em 1.45em 0.7em;
+}
+
+#email {
+    margin-left: 9px;
+}
+
+#email:hover, #password:hover {
+        box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgb(172, 172, 172);
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgb(172, 172, 172);
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: rgb(172, 172, 172);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: rgb(172, 172, 172);
+}
+
+#botao {
+    color: rgb(255, 255, 255);
+    padding: 20px 60px;
+
+    margin-top: 30px;
+    background-color: rgba(34, 221, 34, 0.781);
+    border-radius: 4px;
+    border: none;  
+    
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: rgb(34, 221, 34); 
+}
